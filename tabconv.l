@@ -57,7 +57,8 @@ int main( int argc, char *argv[] )
                     bKeepBackup = -1;
                     break;
 
-                case 'h':
+                default:
+                case 'h': // This isn't really necesarry, but I like it.
                     printf("tabconv [options] <input> <output>\n\n"
                         "  -t <tabsize>     Set the tabsize (default 8 "
                             "spaces).\n"
